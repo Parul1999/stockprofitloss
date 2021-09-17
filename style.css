@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200&display=swap');
+label
+{
+    display: block;
+}
+
+button
+{
+    display: block;
+    border: none;
+    font-family: 'Gluten', cursive;
+    padding:0.5rem 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+input
+{
+    border-radius: 1rem;
+    outline: none;
+    padding: 0.4rem;
+    width: 25rem;
+    margin:0.7rem 0rem 2rem 0rem;
+}
+#sad
+{
+    display: none;
+}
+#happy
+{
+    display: none;
+}
+#body
+{
+    background-color: #FBBF24;
+    color:whitesmoke;
+    font-family: 'Gluten', cursive;
+    text-align: center;
+    margin-top: 5rem;
+}
+#output
+{
+    font-size: 2rem;
+}
+img
+{
+    display: block;
+    margin: auto;
+    border-radius: 10rem;
+    height: 10rem;
+    margin-top: 2rem;
+}
