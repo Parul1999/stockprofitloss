@@ -18,7 +18,7 @@ function calcProfitLoss()
  {
      profit = (current - initial) * quantity;
 		var profitPercent = (profit / initial) * 100;
-      output.innerText= "Total Profit Is : " +profit +" units and Profit Percent : " +profitPercent;
+      output.innerText= "Total Profit Is : " +profit +" units and Profit Percent : " +profitPercent.toFixed(2);
       sadGif.style.display="none";
       happyGif.style.display="block";
       if(profitPercent>50)
@@ -42,7 +42,7 @@ function calcProfitLoss()
  {
      loss = (initial - current) * quantity;
      var lossPercent = (loss / initial) * 100;
-     output.innerText= "Total Loss Is : " +loss +" units and Loss Percent :" +lossPercent;
+     output.innerText= "Total Loss Is : " +loss +" units and Loss Percent :" +lossPercent.toFixed(2);
      happyGif.style.display="none";
      sadGif.style.display="block";
      if(lossPercent>50)
